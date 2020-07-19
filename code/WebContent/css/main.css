@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Header*/
+header{
+	text-align:center;
+
+}
+header a {
+    padding: 10px 5px;
+    color: white;
+}
+
+
+/* Form*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+textarea {
+    resize: none;
+}
+
+.imgAd {
+	max-height: 388px;
+
+}
